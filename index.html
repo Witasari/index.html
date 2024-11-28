@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rice Box Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        
+        .menu-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .title-rice {
+            color: #ff4444;
+            font-size: 24px;
+            font-weight: bold;
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        .title-box {
+            color: #4444ff;
+            font-size: 24px;
+            font-weight: bold;
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        .title-chicken {
+            color: #44aa52;
+            font-size: 24px;
+            font-weight: bold;
+            display: inline;
+        }
+        
+        .menu-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .menu-item {
+            text-align: center;
+            width: 45%;
+        }
+        
+        .menu-image {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #444;
+            margin-top: 5px;
+        }
+        
+        .menu-list {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+        
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="header">
+            <div class="title-rice">RICE</div>
+            <div class="title-box">BOX</div>
+            <div class="title-chicken">MONDRIBOX</div>
+        </div>
+        
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlwKs5pVmDWvgmnI_eWEBd7nGyRj-cU0IKw&s" alt="Rice Box chicken katsu" class="menu-image">
+                <div>Menu 1</div>
+                <div class="price">14K↑</div>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBlIGB3C2Gs1TqUHmF1k2cLGxJzl4TmuFhVw&s" alt="Rice Box nugget sambal geprek" class="menu-image">
+                <div>Menu 2</div>
+                <div class="price">12K↑</div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBDlIER_-o3PMHO2mlyhnJdnAQ9xkfbGn55A&s" alt="Rice Box Telor Sambel Matah" class="menu-image">
+                <div>Menu 3</div>
+                <div class="price">10K↑</div>
+            </div>  
+            </div>
+        </div>
+          
+        <div class="menu-list">
+            <div>1. RICEBOX CHICKEN KATSU</div>
+            <div>2. RICEBOX NUGGET SAMBAL GEPREK</div>
+            <div>3. RICEBOX TELUR SAMBAL MATAH</div>
+        </div>
+        
+        <div class="contact">
+            WA: 089735463748
+        </div>
+    </div>
+</body>
+</html>
